@@ -6,21 +6,25 @@
     color: #9d744c;
 }
 
-html {padding:0; margin:auto;overflow-x: hidden;}
+html {
+    padding: 0;
+    margin: auto;
+    overflow-x: hidden;
+}
 
-@page
-{
-    size: auto;   /* auto is the initial value */
+@page {
+    size: auto;
+    /* auto is the initial value */
 
     /* this affects the margin in the printer settings */
     margin: 25mm 25mm 25mm 25mm;
 }
 
-body
-{
+body {
     /* this affects the margin on the content before sending to printer */
     margin: 0px;
 }
+
 body {
     background-color: #f1f1f1;
     font-family: aileron;
@@ -66,7 +70,7 @@ body {
     margin: 0 auto;
     padding: 0;
     background-color: #fff;
-    position:realative;
+    position: realative;
 }
 
 .col-100 {
@@ -84,6 +88,7 @@ body {
     float: left;
 
 }
+
 .my-heading .my-name {
     font-size: 12pt;
     margin-top: -1%;
@@ -174,24 +179,21 @@ i {
     width: 15%;
     float: left;
 }
+
 .edu-degree {
     width: 35%;
     float: left;
 }
+
 .edu-college {
     width: 40%;
     float: left;
 }
+
 .edu-marks {
     width: 10%;
     float: left;
 }
-
-
-
-
-
-
 
 .item-row-heading .item-year {
     float: left;
@@ -204,9 +206,16 @@ i {
     text-align: center;
 }
 
+.item-row-heading .item-company-1 {
+    float: left;
+    width: 85%;
+    overflow: hidden;
+}
+
 .item-row-heading .item-company {
     float: left;
     width: 30%;
+    overflow: hidden;
 }
 
 .item-row-heading .item-void {
@@ -214,6 +223,13 @@ i {
     width: 10%;
 }
 
+.item-company-1 .head-italic {
+    font-style: italic;
+    font-weight: 300;
+    float: left;
+    display: inline-block;
+    position: absolute;
+}
 
 .item-heading {
     text-transform: uppercase;
@@ -221,4 +237,3 @@ i {
     margin-top: 3pt;
     margin-bottom: 3pt;
 }
-
